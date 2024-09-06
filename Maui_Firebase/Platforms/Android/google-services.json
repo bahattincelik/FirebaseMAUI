@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1007909265726",
+    "project_id": "fir-maui-3e5d3",
+    "storage_bucket": "fir-maui-3e5d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007909265726:android:e7c6f65e81b75703d88c6f",
+        "android_client_info": {
+          "package_name": "com.companyname.maui_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1JQRflmnPgcu0saszz9KbHPBKzpbW3Ug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
