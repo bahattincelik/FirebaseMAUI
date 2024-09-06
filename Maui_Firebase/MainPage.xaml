@@ -5,17 +5,17 @@
 
     <Grid>
         <StackLayout x:Name="SLEntry" VerticalOptions="Center" Spacing="15" Padding="15">
-            <Entry Placeholder="Email"/>
-            <Entry Placeholder="Password"/>
-            <Button Text="Entry"/>
-            <Button BackgroundColor="Transparent" TextColor="Black" Clicked="Button_ClickedAnmelden" Text="Ich habe keinen Konto"/>
+            <Entry Text="{Binding Email, Mode=TwoWay}" Placeholder="Email"/>
+            <Entry Text="{Binding Password, Mode=TwoWay}" Placeholder="Password"/>
+            <Button Clicked="Button_ClickedEntry" Text="Entry"/>
+            <Button BackgroundColor="Transparent" TextColor="Black" Clicked="Button_ClickedAnmeldenEntry" Text="Ich habe keinen Konto"/>
         </StackLayout>
         <StackLayout x:Name="SLAnmelden" IsVisible="False" VerticalOptions="Center" Spacing="15" Padding="15">
-            <Entry Placeholder="User Name"/>
-            <Entry Placeholder="Email"/>
-            <Entry Placeholder="Password"/>
-            <Button Text="Anmelden"/>
-            <Button BackgroundColor="Transparent" TextColor="Black" Clicked="Button_ClickedAnmelden"  Text="Ich habe ein Konto"/>
+            <Entry Text="{Binding UserName, Mode=TwoWay}"  Placeholder="User Name"/>
+            <Entry Text="{Binding Email, Mode=TwoWay}"  Placeholder="Email"/>
+            <Entry Text="{Binding Password, Mode=TwoWay}" Placeholder="Password"/>
+            <Button Clicked="Button_ClickedAnmelden" Text="Anmelden"/>
+            <Button BackgroundColor="Transparent" TextColor="Black" Clicked="Button_ClickedEntry"  Text="Ich habe ein Konto"/>
         </StackLayout>
     </Grid>
 
